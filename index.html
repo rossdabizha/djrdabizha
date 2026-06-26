@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>R.DABIZHA</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
 
+<!-- NAV -->
+<nav>
+  <div class="logo">R.DABIZHA</div>
+  <ul>
+    <li><a href="#music">Music</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
 <header class="hero">
   <div class="hero-bg"></div>
   <div class="overlay"></div>
@@ -20,44 +31,52 @@
   </div>
 </header>
 
-<header class="hero">
-  <div class="overlay"></div>
-
-  <div class="hero-content">
-    <h1>R.DABIZHA</h1>
-    <p>Organic · Deep · Melodic Journey</p>
-    <a href="#music" class="btn">Enter</a>
-  </div>
-</header>
-
+<!-- MUSIC -->
 <section id="music">
   <h2>Latest Releases</h2>
 
   <div class="grid">
     <div class="card">
-      <img src="images/R.DABIZHA-Lost Ritual.png" alt="Lost Ritual">
-      <span>Lost Ritual</span>
+      <img src="images/R.DABIZHA-Lost Ritual.png" alt="Lost Ritual"/>
+      <div class="card-title">Lost Ritual</div>
+    </div>
+
+    <div class="card">
+      <img src="images/R.DABIZHA-Lost Ritual.png" alt="Track"/>
+      <div class="card-title">Deep Journey</div>
+    </div>
+
+    <div class="card">
+      <img src="images/R.DABIZHA-Lost Ritual.png" alt="Track"/>
+      <div class="card-title">Desert Pulse</div>
     </div>
   </div>
 </section>
 
+<!-- ABOUT -->
 <section id="about">
   <h2>About</h2>
-  <p>Organic House project focused on deep melodic journeys.</p>
+  <p>
+    R.DABIZHA is a music project focused on organic house, deep atmospheres,
+    and emotional melodic journeys inspired by nature and ritual soundscapes.
+  </p>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
   <h2>Contact</h2>
 
-  <input type="text" placeholder="Name">
-  <input type="email" placeholder="Email">
-  <textarea placeholder="Message"></textarea>
-
-  <button>Send</button>
+  <form>
+    <input type="text" placeholder="Name"/>
+    <input type="email" placeholder="Email"/>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
 </section>
 
+<!-- FOOTER -->
 <footer>
-  © R.DABIZHA
+  © 2026 R.DABIZHA — All Rights Reserved
 </footer>
 
 <script src="script.js"></script>
