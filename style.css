@@ -47,11 +47,9 @@ nav a {
 /* HERO */
 .hero {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  text-align: center;
+  display: flex;
+ 
 }
 
 .hero::before {
